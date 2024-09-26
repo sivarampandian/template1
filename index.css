@@ -1,0 +1,631 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+}
+
+/*///////////////////////////////////firstpage///////////////////////////////////*/
+.firstpage
+{
+    height: 100vh;
+    background-color:#e6ae00;
+}
+.firstnav
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.logo
+{
+    padding-left: 30px;
+}
+.move
+{
+    padding-right: 30px;
+}
+.logo p
+{
+    font-size: 24px;
+    color: rgba(255, 182, 193, 0.788);
+}
+.move h4
+{
+    font-weight: 600;
+    font-size: 17px;
+}
+.move p
+{
+    height: 3px;
+    width: 50px;
+    background-color: black;
+}
+/*////////////////////////////////secondnav/////////////////////////////////////*/
+.secondnav
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.blackmen
+{
+    height: 575px;
+    
+}
+.third ul li
+{
+    list-style-type: none;
+    padding-bottom: 10px;
+    
+}
+.third a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+    
+    
+}
+.third ul
+{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.first
+{
+    padding-left: 60px;
+    margin-top: 30px;
+    
+}
+
+.third
+{
+    padding-right: 60px;
+    margin-top: 30px;
+}
+.first h1
+{
+font-size: 44px;
+text-decoration: underline 4px black;
+font-weight: 900;
+margin: 0;
+padding: 0;
+}
+
+/*//////////////////////////////getright////////////////////////////////*/
+.getright
+{
+    height: 64vh;
+
+}
+.getpara
+{
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.getpara h1
+{
+    font-size: 50px;
+    font-weight: 800;
+}
+.getpara p
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+.buttons
+{
+    padding-left: 90px;
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.btn1
+{
+    
+    border-radius: 18px;
+    background-color:#e6ae00;;
+      border: none;
+    padding: 5px 35px;
+}
+.btn2
+{
+    
+    border-radius: 18px;
+    background-color: white;
+    border: 2px #e6ae00 solid;
+    
+    padding: 4px 30px;
+    
+}
+.btn1:hover{
+    background-color: black;
+    color: #e6ae00;
+    
+}
+.btn2:hover{
+    background-color: black;
+    color:white;
+    border: black;
+}
+.getpara h1:hover{
+    font-size: 55px;
+    color: #e6ae00;
+}
+/*///////////////////////////////////////////from big///////////////////////////////////*/
+.frombig h1
+{
+    font-size: 50px;
+    font-weight: 800;
+    padding-left: 50px;
+}
+.onny
+{
+    display: flex;
+    position: relative;
+    right: 80px;
+    gap: 30px;
+}
+.second
+{
+    display: flex;
+    gap: 30px;
+}
+.one h1
+{
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #e6ae00;
+    padding: 6px;
+    border-radius: 50%;
+    color: white;
+}
+
+.two h1
+{
+
+    font-size: 32px;
+    font-weight: 700;
+    background-color:#e6ae00;
+    padding: 6px;
+    border-radius: 50%;
+    color: white;
+}
+.frombig
+{
+    height: 80vh;
+}
+.onespara h4
+{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.onespara p
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+.onespara a
+{
+    color: black;
+    text-decoration: underline 2px solid #e6ae00;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.twospara h4
+{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.twospara p
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+.twospara a
+{
+    color: black;
+    text-decoration: underline 2px solid #e6ae00;
+    font-size: 10px;
+    font-weight: 500;
+    
+}
+
+/*//////////////////////////////////////DISCOVER WORLD/////////////////////////////////*/
+
+
+.discover
+{
+    height: 85vh;
+    background-color: #e4e4e4;
+}
+.world
+{
+    margin-top: 80px;
+    position: relative;
+    right: 70px;
+}
+.world h1
+{
+    font-size: 50px;
+    font-weight: 800;
+}
+.lapimage
+{
+    border-radius: 4px;
+    width: 800px;
+}
+.lappy
+{
+    position: relative;
+    left: 50px;
+}
+.world p
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.arrows
+{
+    display: flex;
+    margin-top: 80px;
+    padding-left: 30px;
+    text-align: center;
+    gap: 100px;
+
+    
+}
+.arrows h5
+{
+    font-size: 17px;
+    font-weight: 600;
+}
+.solo
+{
+    width: 30px;
+}
+/*////////////////////////////////freelance//////////////////////////////////*/
+.freelance
+{
+ height: 80vh;
+ padding-left: 70px;
+ padding-top: 80px;
+ background-color: #f1f1f1
+
+ 
+}
+.jackface
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.jack
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.jack p
+{
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.freepara h1
+{
+    font-size: 50px;
+    font-weight: 800;
+}
+.freepara p
+{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.softline
+{
+    text-decoration: underline 2px darkcyan;
+}
+.freepara h6
+{
+    color: lightseagreen;
+}
+.buttu
+{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+/*//////////////////////////////////Fastonline/////////////////////////////////*/
+.fastonline
+{
+    height: 38vh;
+}
+.parent
+{
+    display: flex;
+    gap: 50px;
+    justify-content: start;
+    align-self: start;
+    align-items: start;
+ 
+}
+.head
+{
+    height: 50px;
+    width: 50px;
+    border: solid 2px rgba(255, 0, 0, 0.507);
+    border-radius: 50%;
+    padding: 8px;
+}
+ .secondu
+ {
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-top: 15px;
+ }
+ .headimage
+ {
+    background-color: #e6ae00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    height: 190px;
+    
+ }
+ .secondu p
+ {
+    font-size: 16px;
+ }
+ .fastline
+ {
+    height: 3px;
+    width: 140px;
+    background-color: #e6ae00;
+ }
+ .child1 h1
+ {
+ font-size: 40px;
+ font-weight: 700;
+ }
+ /*//////////////////////////////////////////////numberone//////////////////////////////*/
+
+
+ .oneflex
+ {
+    display: flex;
+    gap: 30px;
+ }
+ .numberone
+ {
+    height: 51vh;
+ }
+ .oneflex h1
+ {
+    font-size: 80px;
+    font-weight: 900;
+
+ }
+ .oneflex p
+ {
+font-size: 18px;
+font-weight: 500;
+ }
+ .btn5
+ {
+    margin-left: 130px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 18px;
+    background-color: white;
+    border: 2px #e6ae00 solid;
+    font-size: 15px;
+    font-weight: 500;
+    width: 250px;
+    margin-top: 17px;
+ }
+ /*/////////////////////////////////////////////////DESCRIPTION/////////////////////////////////*/
+   .description
+   {
+    height: 100vh;
+    background-color: #e6ae00;
+   }
+   .navik
+   {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 50px;
+   }
+   .navik a
+   {
+    text-decoration: none;
+    color: black;
+    margin: 0px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    
+
+   }
+   .discrip 
+   {
+    display: flex;
+ 
+   
+   }
+   .contentwo
+   {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+   }
+   .nikeimage
+   {
+    height: 420px;
+    width: 360px;
+    border-radius: 3px;
+   }
+   .nike span
+   {
+    color: #e6ae00;
+    font-size: 20px;
+   }
+   .nike p
+   {
+    font-size: 16px;
+    font-weight: 500;
+   }
+   .btn6
+   {
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 18px;
+    background-color: white;
+    border: 2px #e6ae00 solid;
+    font-size: 15px;
+    font-weight: 500;
+    width: 250px;
+    margin-top: 10px;
+   }
+   .descrip span
+   {
+    background-color: white;
+    padding: 16px;
+    padding-bottom: 30px;
+   }
+   /*.////////////////////////////////////////finalpage//////////////////////////*/
+   .finalpage
+   {
+    height: 81vh;
+   }
+   .empty
+   {
+    display: flex;
+    justify-content: space-between;
+   }
+   .empty2
+   {
+    background-color: black;
+    padding: 20px;
+    padding-left: 160px;
+   }
+   .contactus
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+    
+   }
+   .inputclass
+   {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+   }
+   .contactus h1
+   {
+    font-size: 50px;
+    font-weight: 800;
+   }
+   .contactus p
+   {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+   }
+   .inputclass input
+   {
+    padding: 6px;
+    width: 250px;
+   }
+   .input2
+   {
+    width: 520px;
+    margin-top: 20px;
+      padding: 40px;
+   }
+   .btn7
+
+   {
+    margin-top: 20px;
+    width: 100px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+    border: none;
+   }
+   .lightimage
+   {
+    width: 870px;
+    margin-left: 12px;
+    height: 350px;
+   }
+   /*////////////////////////////////////////////////////////*/
+   .icons
+   {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    height: 10vh;
+    justify-content: space-between;
+    color: white;
+    
+   }
+   .iconic
+   {
+    background-color: black;
+    padding: 20px;
+    padding-left: 90px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    gap: 15px;
+    
+    
+   }
+   .fa-brands
+   {
+    position: relative;
+    right: 40px;
+    top: 20px;
+   }
+   /*////////////////////////////////last///////////////////////////////////*/
+   .last
+   {
+    height: 15vh;
+    background-color: rgba(165, 42, 42, 0.781);
+    color:white;
+    margin-top: 10px;
+   }
+   .lastcontent
+   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 26px;
+   }
